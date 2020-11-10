@@ -4,8 +4,422 @@
     <meta charset="UTF-8">
     <title>Комментарии</title>
     <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
-
+<body class="body">
+    <article class="comments">
+        <div class="comment">
+            <div class="comment__avatar">
+                <img
+                    class="comment__avatar-img"
+                    src="https://staff.skbkontur.ru/api/avatar/S-1-5-21-1231152155-1323711836-1525454979-88744"
+                    alt="avatar"
+                >
+            </div>
+            <section class="comment__content">
+                <header class="comment__header">
+                    <h2 class="comment__name">
+                        Константин Константинопольский
+                    </h2>
+                    <div class="comment__like">
+                        <svg class="comment__like-icon" width="17" height="16" viewBox="0 0 17 16" xmlns="http://www.w3.org/2000/svg" fill="#A0A0A0">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.391052 5.92999L5.39782 5.99999V7.23999C5.46791 7.16999 5.51798 7.08999 5.54802 6.99999C5.91852 6.05999 6.3491 5.39999 6.81974 4.99999C7.64085 4.35999 8.0514 3.23999 8.0514 2.05999C8.0514 0.87999 8.10147 -1.02334e-05 9.25303 -1.02334e-05C10.9954 -0.0200102 11.5561 1.69999 11.5561 2.75999C11.5561 3.40999 11.5361 4.03999 11.2958 5.00999H13.5989C15.5816 5.00999 16.8032 6.10999 16.4027 8.50999L15.902 11.51C15.1009 15.01 13.669 14.93 11.3959 15.01H8.40188C6.87982 15.01 6.15885 14.51 5.39782 14.51V16H0.391052V5.92999ZM5.39782 13.5C6.84978 13.56 6.87982 14.02 8.40188 14.02H11.4059C13.4086 13.94 14.2798 14.02 14.9107 11.39L15.4113 8.48999C15.6617 6.73999 15.2912 5.98999 13.4086 5.98999H11.4059C10.9854 5.98999 10.0842 5.78999 10.3545 4.60999C10.4547 4.14999 10.6049 3.48999 10.5548 2.82999C10.4246 1.02999 9.55343 0.99999 9.33314 0.98999C9.13287 0.98999 9.06277 0.86999 9.03273 2.18999C9.0127 4.18999 8.01135 5.34999 7.29038 5.91999C6.4192 6.61999 6.62948 8.41999 5.3878 8.41999V13.49L5.39782 13.5ZM1.39241 6.99999V15H4.39646V6.99999H1.39241ZM2.89444 14C2.61406 14 2.39376 13.78 2.39376 13.5C2.39376 13.22 2.61406 13 2.89444 13C3.17481 13 3.39511 13.22 3.39511 13.5C3.39511 13.78 3.17481 14 2.89444 14Z"/>
+                        </svg>
+                    </div>
+                    <div class="comment__group">
+                        Фм-30125
+                    </div>
+                    <div class="comment__right-answer hide">
+                        <img
+                            class="comment__right-answer-icon"
+                            src="img/star.svg"
+                            alt="star"
+                        >
+                        <span class="comment__right-text">
+                            Правильный ответ
+                        </span>
+                    </div>
+                    <div class="mobile-menu hide">
+                        <button class="mobile-menu__btn">
+                            <img
+                                class="mobile-menu__btn-icon"
+                                src="img/menu.svg"
+                                alt="menu"
+                            >
+                        </button>
+                        <menu class="mobile-menu__list">
+                            <li class="mobile-menu__list-item">
+                                <button class="mobile-menu__list-btn">
+                                    Срыть
+                                </button>
+                            </li>
+                            <li class="mobile-menu__list-item">
+                                <button class="mobile-menu__list-btn">
+                                    Удалить
+                                </button>
+                            </li>
+                            <li class="mobile-menu__list-item">
+                                <button class="mobile-menu__list-btn">
+                                    Закрепить
+                                </button>
+                            </li>
+                            <li class="mobile-menu__list-item">
+                                <button class="mobile-menu__list-btn">
+                                    Редактировать
+                                </button>
+                            </li>
+                            <li class="mobile-menu__list-item">
+                                <button class="mobile-menu__list-btn">
+                                    Посмотреть решения
+                                </button>
+                            </li>
+                        </menu>
+                    </div>
+                </header>
+                <time class="comment__time" datetime="2020-11-05 19:00">
+                    57 минут назад
+                </time>
+                <p class="comment__text">
+                    Как по мне зачем новичку забивать голову раньше времени улучшениями из версии 6,если еще нет базы.
+                    Тут нужен хотя бы средний уровень, а то и выше, владения языком чтобы понять что там написано.
+                    Для новичка это лишняя информация которая ему сейчас не к чему.
+                </p>
+                <div class="comment__actions">
+                    <div class="comment__action">
+                        <img
+                            class="comment__action-icon"
+                            src="img/answer.svg"
+                            alt="answer"
+                        >
+                        <span class="comment__action-text">
+                            Ответить
+                        </span>
+                    </div>
+                    <div class="comment__action">
+                        <img
+                            class="comment__action-icon"
+                            src="img/anchor.svg"
+                            alt="anchor"
+                        >
+                        <span class="comment__action-text">
+                            Закрепить
+                        </span>
+                    </div>
+                    <div class="comment__action">
+                        <img
+                            class="comment__action-icon"
+                            src="img/solution.svg"
+                            alt="solution"
+                        >
+                        <span class="comment__action-text">
+                            Посмотреть решение
+                        </span>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="comment">
+            <div class="comment__avatar">
+                <img
+                    class="comment__avatar-img"
+                    src="https://staff.skbkontur.ru/api/avatar/S-1-5-21-1231152155-1323711836-1525454979-88744"
+                    alt="avatar"
+                >
+            </div>
+            <section class="comment__content">
+                <header class="comment__header">
+                    <h2 class="comment__name">
+                        Rino Rains by Elephant
+                    </h2>
+                    <div class="comment__like">
+                        <svg class="comment__like-icon" width="17" height="16" viewBox="0 0 17 16" xmlns="http://www.w3.org/2000/svg" fill="#A0A0A0">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.391052 5.92999L5.39782 5.99999V7.23999C5.46791 7.16999 5.51798 7.08999 5.54802 6.99999C5.91852 6.05999 6.3491 5.39999 6.81974 4.99999C7.64085 4.35999 8.0514 3.23999 8.0514 2.05999C8.0514 0.87999 8.10147 -1.02334e-05 9.25303 -1.02334e-05C10.9954 -0.0200102 11.5561 1.69999 11.5561 2.75999C11.5561 3.40999 11.5361 4.03999 11.2958 5.00999H13.5989C15.5816 5.00999 16.8032 6.10999 16.4027 8.50999L15.902 11.51C15.1009 15.01 13.669 14.93 11.3959 15.01H8.40188C6.87982 15.01 6.15885 14.51 5.39782 14.51V16H0.391052V5.92999ZM5.39782 13.5C6.84978 13.56 6.87982 14.02 8.40188 14.02H11.4059C13.4086 13.94 14.2798 14.02 14.9107 11.39L15.4113 8.48999C15.6617 6.73999 15.2912 5.98999 13.4086 5.98999H11.4059C10.9854 5.98999 10.0842 5.78999 10.3545 4.60999C10.4547 4.14999 10.6049 3.48999 10.5548 2.82999C10.4246 1.02999 9.55343 0.99999 9.33314 0.98999C9.13287 0.98999 9.06277 0.86999 9.03273 2.18999C9.0127 4.18999 8.01135 5.34999 7.29038 5.91999C6.4192 6.61999 6.62948 8.41999 5.3878 8.41999V13.49L5.39782 13.5ZM1.39241 6.99999V15H4.39646V6.99999H1.39241ZM2.89444 14C2.61406 14 2.39376 13.78 2.39376 13.5C2.39376 13.22 2.61406 13 2.89444 13C3.17481 13 3.39511 13.22 3.39511 13.5C3.39511 13.78 3.17481 14 2.89444 14Z"/>
+                        </svg>
+                    </div>
+                    <div class="comment__group hide">
+                        Фм-30125
+                    </div>
+                    <div class="comment__right-answer hide">
+                        <img
+                            class="comment__right-answer-icon"
+                            src="img/star.svg"
+                            alt="star"
+                        >
+                        <span class="comment__right-text">
+                            Правильный ответ
+                        </span>
+                    </div>
+                </header>
+                <time class="comment__time" datetime="2020-11-05 19:00">
+                    21 ноября
+                </time>
+                <p class="comment__text">
+                    Почему int не может быть умножен на double, если этот тип может быть неявно преобразован?
+                </p>
+                <div class="comment__actions hide">
+                    <div class="comment__action">
+                        <img
+                            class="comment__action-icon"
+                            src="img/answer.svg"
+                            alt="answer"
+                        >
+                        <span class="comment__action-text">
+                            Ответить
+                        </span>
+                    </div>
+                    <div class="comment__action">
+                        <img
+                            class="comment__action-icon"
+                            src="img/anchor.svg"
+                            alt="anchor"
+                        >
+                        <span class="comment__action-text">
+                            Закрепить
+                        </span>
+                    </div>
+                    <div class="comment__action">
+                        <img
+                            class="comment__action-icon"
+                            src="img/solution.svg"
+                            alt="solution"
+                        >
+                        <span class="comment__action-text">
+                            Посмотреть решение
+                        </span>
+                    </div>
+                </div>
+                <section class="comment__answers">
+                    <div class="comment">
+                        <div class="comment__avatar">
+                            <img
+                                class="comment__avatar-img"
+                                src="https://staff.skbkontur.ru/api/avatar/S-1-5-21-1231152155-1323711836-1525454979-88744"
+                                alt="avatar"
+                            >
+                        </div>
+                        <section class="comment__content">
+                            <header class="comment__header">
+                                <h2 class="comment__name">
+                                    Rino Rains by Elephant
+                                </h2>
+                                <div class="comment__like">
+                                    <svg class="comment__like-icon" width="17" height="16" viewBox="0 0 17 16" xmlns="http://www.w3.org/2000/svg" fill="#A0A0A0">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.391052 5.92999L5.39782 5.99999V7.23999C5.46791 7.16999 5.51798 7.08999 5.54802 6.99999C5.91852 6.05999 6.3491 5.39999 6.81974 4.99999C7.64085 4.35999 8.0514 3.23999 8.0514 2.05999C8.0514 0.87999 8.10147 -1.02334e-05 9.25303 -1.02334e-05C10.9954 -0.0200102 11.5561 1.69999 11.5561 2.75999C11.5561 3.40999 11.5361 4.03999 11.2958 5.00999H13.5989C15.5816 5.00999 16.8032 6.10999 16.4027 8.50999L15.902 11.51C15.1009 15.01 13.669 14.93 11.3959 15.01H8.40188C6.87982 15.01 6.15885 14.51 5.39782 14.51V16H0.391052V5.92999ZM5.39782 13.5C6.84978 13.56 6.87982 14.02 8.40188 14.02H11.4059C13.4086 13.94 14.2798 14.02 14.9107 11.39L15.4113 8.48999C15.6617 6.73999 15.2912 5.98999 13.4086 5.98999H11.4059C10.9854 5.98999 10.0842 5.78999 10.3545 4.60999C10.4547 4.14999 10.6049 3.48999 10.5548 2.82999C10.4246 1.02999 9.55343 0.99999 9.33314 0.98999C9.13287 0.98999 9.06277 0.86999 9.03273 2.18999C9.0127 4.18999 8.01135 5.34999 7.29038 5.91999C6.4192 6.61999 6.62948 8.41999 5.3878 8.41999V13.49L5.39782 13.5ZM1.39241 6.99999V15H4.39646V6.99999H1.39241ZM2.89444 14C2.61406 14 2.39376 13.78 2.39376 13.5C2.39376 13.22 2.61406 13 2.89444 13C3.17481 13 3.39511 13.22 3.39511 13.5C3.39511 13.78 3.17481 14 2.89444 14Z"/>
+                                    </svg>
+                                </div>
+                                <div class="comment__group hide">
+                                    Фм-30125
+                                </div>
+                                <div class="comment__right-answer hide">
+                                    <img
+                                        class="comment__right-answer-icon"
+                                        src="img/star.svg"
+                                        alt="star"
+                                    >
+                                    <span class="comment__right-text">
+                                        Правильный ответ
+                                    </span>
+                                </div>
+                            </header>
+                            <time class="comment__time" datetime="2020-11-05 19:00">
+                                вчера
+                            </time>
+                            <p class="comment__text">
+                                int не умножается на double
+                            </p>
+                            <div class="comment__actions hide">
+                                <div class="comment__action">
+                                    <img
+                                        class="comment__action-icon"
+                                        src="img/answer.svg"
+                                        alt="answer"
+                                    >
+                                    <span class="comment__action-text">
+                                        Ответить
+                                    </span>
+                                </div>
+                                <div class="comment__action">
+                                    <img
+                                        class="comment__action-icon"
+                                        src="img/anchor.svg"
+                                        alt="anchor"
+                                    >
+                                    <span class="comment__action-text">
+                                        Закрепить
+                                    </span>
+                                </div>
+                                <div class="comment__action">
+                                    <img
+                                        class="comment__action-icon"
+                                        src="img/solution.svg"
+                                        alt="solution"
+                                    >
+                                    <span class="comment__action-text">
+                                        Посмотреть решение
+                                    </span>
+                                </div>
+                            </div>
+                            <section class="comment__answers">
+                            </section>
+                        </section>
+                    </div>
+                </section>
+            </section>
+        </div>
+        <div class="comment">
+            <div class="comment__avatar">
+                <img
+                    class="comment__avatar-img"
+                    src="https://staff.skbkontur.ru/api/avatar/S-1-5-21-1231152155-1323711836-1525454979-88744"
+                    alt="avatar"
+                >
+            </div>
+            <section class="comment__content">
+                <header class="comment__header">
+                    <h2 class="comment__name">
+                        Rino Rains by Elephant
+                    </h2>
+                    <div class="comment__like active">
+                        <svg class="comment__like-icon" width="17" height="16" viewBox="0 0 17 16" fill="#A0A0A0" xmlns="http://www.w3.org/2000/svg" fill="#A0A0A0">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.391052 5.92999L5.39782 5.99999V7.23999C5.46791 7.16999 5.51798 7.08999 5.54802 6.99999C5.91852 6.05999 6.3491 5.39999 6.81974 4.99999C7.64085 4.35999 8.0514 3.23999 8.0514 2.05999C8.0514 0.87999 8.10147 -1.02334e-05 9.25303 -1.02334e-05C10.9954 -0.0200102 11.5561 1.69999 11.5561 2.75999C11.5561 3.40999 11.5361 4.03999 11.2958 5.00999H13.5989C15.5816 5.00999 16.8032 6.10999 16.4027 8.50999L15.902 11.51C15.1009 15.01 13.669 14.93 11.3959 15.01H8.40188C6.87982 15.01 6.15885 14.51 5.39782 14.51V16H0.391052V5.92999ZM5.39782 13.5C6.84978 13.56 6.87982 14.02 8.40188 14.02H11.4059C13.4086 13.94 14.2798 14.02 14.9107 11.39L15.4113 8.48999C15.6617 6.73999 15.2912 5.98999 13.4086 5.98999H11.4059C10.9854 5.98999 10.0842 5.78999 10.3545 4.60999C10.4547 4.14999 10.6049 3.48999 10.5548 2.82999C10.4246 1.02999 9.55343 0.99999 9.33314 0.98999C9.13287 0.98999 9.06277 0.86999 9.03273 2.18999C9.0127 4.18999 8.01135 5.34999 7.29038 5.91999C6.4192 6.61999 6.62948 8.41999 5.3878 8.41999V13.49L5.39782 13.5ZM1.39241 6.99999V15H4.39646V6.99999H1.39241ZM2.89444 14C2.61406 14 2.39376 13.78 2.39376 13.5C2.39376 13.22 2.61406 13 2.89444 13C3.17481 13 3.39511 13.22 3.39511 13.5C3.39511 13.78 3.17481 14 2.89444 14Z"/>
+                        </svg>
+                        <span class="comment__like-count">
+                            10
+                        </span>
+                    </div>
+                    <div class="comment__group hide">
+                        Фм-30125
+                    </div>
+                    <div class="comment__right-answer hide">
+                        <img
+                            class="comment__right-answer-icon"
+                            src="img/star.svg"
+                            alt="star"
+                        >
+                        <span class="comment__right-text">
+                            Правильный ответ
+                        </span>
+                    </div>
+                </header>
+                <time class="comment__time" datetime="2020-11-05 19:00">
+                    21 ноября
+                </time>
+                <p class="comment__text">
+                    Почему int не может быть умножен на double, если этот тип может быть неявно преобразован?
+                </p>
+                <div class="comment__actions hide">
+                    <div class="comment__action">
+                        <img
+                            class="comment__action-icon"
+                            src="img/answer.svg"
+                            alt="answer"
+                        >
+                        <span class="comment__action-text">
+                            Ответить
+                        </span>
+                    </div>
+                    <div class="comment__action">
+                        <img
+                            class="comment__action-icon"
+                            src="img/anchor.svg"
+                            alt="anchor"
+                        >
+                        <span class="comment__action-text">
+                            Закрепить
+                        </span>
+                    </div>
+                    <div class="comment__action">
+                        <img
+                            class="comment__action-icon"
+                            src="img/solution.svg"
+                            alt="solution"
+                        >
+                        <span class="comment__action-text">
+                            Посмотреть решение
+                        </span>
+                    </div>
+                </div>
+                <section class="comment__answers">
+                    <div class="comment">
+                        <div class="comment__avatar">
+                            <img
+                                class="comment__avatar-img"
+                                src="https://staff.skbkontur.ru/api/avatar/S-1-5-21-1231152155-1323711836-1525454979-88744"
+                                alt="avatar"
+                            >
+                        </div>
+                        <section class="comment__content">
+                            <header class="comment__header">
+                                <h2 class="comment__name">
+                                    Rino Rains by Elephant
+                                </h2>
+                                <div class="comment__like">
+                                    <svg class="comment__like-icon" width="17" height="16" viewBox="0 0 17 16" xmlns="http://www.w3.org/2000/svg" fill="#A0A0A0">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.391052 5.92999L5.39782 5.99999V7.23999C5.46791 7.16999 5.51798 7.08999 5.54802 6.99999C5.91852 6.05999 6.3491 5.39999 6.81974 4.99999C7.64085 4.35999 8.0514 3.23999 8.0514 2.05999C8.0514 0.87999 8.10147 -1.02334e-05 9.25303 -1.02334e-05C10.9954 -0.0200102 11.5561 1.69999 11.5561 2.75999C11.5561 3.40999 11.5361 4.03999 11.2958 5.00999H13.5989C15.5816 5.00999 16.8032 6.10999 16.4027 8.50999L15.902 11.51C15.1009 15.01 13.669 14.93 11.3959 15.01H8.40188C6.87982 15.01 6.15885 14.51 5.39782 14.51V16H0.391052V5.92999ZM5.39782 13.5C6.84978 13.56 6.87982 14.02 8.40188 14.02H11.4059C13.4086 13.94 14.2798 14.02 14.9107 11.39L15.4113 8.48999C15.6617 6.73999 15.2912 5.98999 13.4086 5.98999H11.4059C10.9854 5.98999 10.0842 5.78999 10.3545 4.60999C10.4547 4.14999 10.6049 3.48999 10.5548 2.82999C10.4246 1.02999 9.55343 0.99999 9.33314 0.98999C9.13287 0.98999 9.06277 0.86999 9.03273 2.18999C9.0127 4.18999 8.01135 5.34999 7.29038 5.91999C6.4192 6.61999 6.62948 8.41999 5.3878 8.41999V13.49L5.39782 13.5ZM1.39241 6.99999V15H4.39646V6.99999H1.39241ZM2.89444 14C2.61406 14 2.39376 13.78 2.39376 13.5C2.39376 13.22 2.61406 13 2.89444 13C3.17481 13 3.39511 13.22 3.39511 13.5C3.39511 13.78 3.17481 14 2.89444 14Z"/>
+                                    </svg>
+                                    <span class="comment__like-count">
+                                        133
+                                    </span>
+                                </div>
+                                <div class="comment__group hide">
+                                    Фм-30125
+                                </div>
+                                <div class="comment__right-answer">
+                                    <img
+                                        class="comment__right-answer-icon"
+                                        src="img/star.svg"
+                                        alt="star"
+                                    >
+                                    <span class="comment__right-text">
+                                        Правильный ответ
+                                    </span>
+                                </div>
+                            </header>
+                            <time class="comment__time" datetime="2020-11-05 19:00">
+                                вчера
+                            </time>
+                            <p class="comment__text">
+                                int не умножается на double
+                            </p>
+                            <div class="comment__actions hide">
+                                <div class="comment__action">
+                                    <img
+                                        class="comment__action-icon"
+                                        src="img/answer.svg"
+                                        alt="answer"
+                                    >
+                                    <span class="comment__action-text">
+                                        Ответить
+                                    </span>
+                                </div>
+                                <div class="comment__action">
+                                    <img
+                                        class="comment__action-icon"
+                                        src="img/anchor.svg"
+                                        alt="anchor"
+                                    >
+                                    <span class="comment__action-text">
+                                        Закрепить
+                                    </span>
+                                </div>
+                                <div class="comment__action">
+                                    <img
+                                        class="comment__action-icon"
+                                        src="img/solution.svg"
+                                        alt="solution"
+                                    >
+                                    <span class="comment__action-text">
+                                        Посмотреть решение
+                                    </span>
+                                </div>
+                            </div>
+                            <section class="comment__answers">
+                            </section>
+                        </section>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </article>
 </body>
 </html>
